@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.logo img{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 35%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;top: 0;
+    cursor: pointer;
+}
+.first{
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+}
+.first li{
+       list-style: none;
+
+}
+.first li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}   
+
+ .first li a:hover{
+       color: red;
+    }
+
+.secound{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+   
+}
+.btn{
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+.background{
+ background-color: rgb(64, 54, 54) ;
+ background-size: cover;
+ background-blend-mode: darken;
+}
+
+.onesection{
+    height: 110vh;
+    background: url(background.jpg);
+
+    
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: auto;
+     margin-left: 10px;
+     height: 80%;
+    
+     
+  
+}
+.onehalfsection{
+     width: 40%;
+     justify-content: center;
+     flex-direction: column ;
+     margin-left: 2%;
+     
+}
+
+.secoundhalfsection{
+    width: 30%;
+}
+
+.secoundhalfsection img{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+ font-size: 28px;
+
+}
+.text-small{
+     font-size: 15px;
+}
+
+.btn{
+    padding: 3px 6px;
+    margin: 2px 1px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background: none;
+}
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    /* font-family: 'ubuntu' sans-serif; */
+    margin-bottom: 20%;
+    line-gap-override: 10px;
+    
+    
+}
+
+.section-left{
+    flex-direction: row-reverse;
+   
+    
+   
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+
+
